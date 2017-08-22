@@ -2,7 +2,11 @@
 
 Repository Containing Public CRT for BdE INSA Lyon Certification Authority (self-issued)
 
-Use ``./bde-ca.sh`` to setup the CA on Ubuntu.
+Use ``./bde-ca.sh`` to setup the CA on Ubuntu:
+
+```bash
+curl https://raw.githubusercontent.com/BdEINSALyon/ca-authority/v1.0.0.0/bde-ca.sh | sudo bash
+```
 
 Take care latest commits are signed by repository administrators.
 
